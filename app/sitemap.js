@@ -1,10 +1,21 @@
 // app/sitemap.js
 
 // L'URL de votre site
-const URL = "https://www.couvreur-loudeac.fr"
+const URL = "https://www.jardinier-loudeac.fr"
 
 // Vos routes statiques
-const SITE_ROUTES = ["", "/contact", "/entretien", "/fuite", "/reparation", "/travaux-divers"]
+const SITE_ROUTES = ["/", "/contact", "/desherbage", "/elaguage", "/pelouse", "/amenagement", "/travaux-divers"]
+
+// "/entretien" },
+//     { label: "Elaguage", route: "/elaguage" },
+//     { label: "Pelouse", route: "/pelouse" },
+//     { label: "Désherbage", route: "/desherbage" },
+//     { label: "Aménagement", route: "/amenagement" },
+//     { label: "Travaux divers", route: "/travaux-divers" },
+//     { label: "Contact", route: "/contact" },
+
+
+
 
 // Vos routes dynamiques
 // Ici, on utilisera plus souvent le résultat d'un call API
